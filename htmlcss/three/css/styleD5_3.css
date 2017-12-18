@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper{
+    padding: 30px;
+    background-color: #32e01f;
+}
+.inline{
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+.ul1{
+    text-align: center;
+    margin: 10px;}
+
+.color:target {
+    background-color: #0D5D56;
+
+}
+
