@@ -19,6 +19,7 @@
 .u{
     text-align: center;
     margin: auto;
+    list-style: none;
 }
 
 .line:hover{
@@ -40,6 +41,7 @@
 .u2{
     text-align: center;
     margin: auto;
+    list-style: none;
 }
 
 .l{
@@ -52,9 +54,15 @@
     /*display: inline-block;*/
     height: 40px;
     width: 80px;
-    text-align: center;
-    margin: auto;
+    /*text-align: center;*/
+    /*margin: auto;*/
     line-height: 40px;
+    padding-left: 10px;
 
+}
+.clearfix:after{
+    content: "" ;
+    display: block;
+    clear: both;
 }
 
