@@ -1,0 +1,269 @@
+* {
+    /*box-sizing: border-box;*/
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: sans-serif;
+    background-image:linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+}
+.wrapper{
+    max-width: 1000px;
+    height: 500px;
+    padding: 50px;
+    /*background-color: #20d94b;*/
+    margin: auto;
+}
+
+.nav-fl{
+    max-width: 800px;
+    background: white;
+    border-radius: 15px;
+    height: 150px;
+    /*align-items: center;*/
+}
+.box{
+    list-style: none;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*align-items: center;*/
+}
+
+.item-1{
+    border: 1px solid red;
+    background: #1e4eff;
+    padding: 10px;
+    color: white;
+    
+}
+
+.item-1:hover{
+    border: 1px solid red;
+    background: #faf6f6;
+    padding: 10px;
+    color: #1e4eff;
+}
+
+-----------------------
+
+
+.nav-fl2{
+    max-width: 800px;
+    background: white;
+    border-radius: 15px;
+    height: 150px;
+    /*align-items: center;*/
+}
+.box2{
+    list-style: none;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*align-items: center;*/
+}
+
+.item-2, .item-3{
+    border: 1px solid red;
+    background: #1e4eff;
+    padding: 10px;
+    color: white;
+
+}
+
+.item-3{
+    order:-1;
+}
+
+.item-2:hover{
+    border: 1px solid red;
+    background: #faf6f6;
+    padding: 10px;
+    color: #1e4eff;
+
+}
+
+-----------------------
+
+
+.nav-fl3{
+    max-width: 800px;
+    background: white;
+    border-radius: 15px;
+    height: 150px;
+    /*align-items: center;*/
+    /*align-content:space-between;*/
+}
+.box3{
+    list-style: none;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /*align-items: center;*/
+    align-content:space-between;
+}
+
+.item-4{
+    border: 1px solid red;
+    background: #1e4eff;
+    padding: 10px;
+    color: white;
+
+}
+.item-41{
+    text-align: right;
+   flex-grow: 3;
+
+}
+.item-42{
+    text-align: left;
+    flex-grow: 3;
+
+}
+
+
+
+.item-4:hover{
+    border: 1px solid red;
+    background: #faf6f6;
+    padding: 10px;
+    color: #1e4eff;
+
+}
+
+-----------------------
+
+.nav-fl4{
+    max-width: 800px;
+    background: white;
+    border-radius: 15px;
+    height: 150px;
+    /*align-items: center;*/
+}
+.box4{
+    list-style: none;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.item-5{
+    border: 1px solid red;
+    background: #1e4eff;
+    padding: 10px;
+    color: white;
+    width: 100px;
+    text-align: center;
+
+}
+
+
+
+.item-5:hover{
+    border: 1px solid red;
+    background: #faf6f6;
+    padding: 10px;
+    color: #1e4eff;
+
+}
+
+-----------------------
+
+
+.nav-fl5{
+    max-width: 800px;
+    background: white;
+    border-radius: 15px;
+    height: 150px;
+
+}
+.box5{
+    list-style: none;
+    padding: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    background-color: #1e4eff;
+    width: auto;
+
+
+}
+
+.item-6{
+    border: 1px solid red;
+    background: #1e4eff;
+    padding: 10px;
+    color: white;
+    width: 100px;
+    text-align: center;
+    /*align-self: center;*/
+
+
+}
+
+.item-6:hover{
+    border: 1px solid red;
+    background: #faf6f6;
+    padding: 10px;
+    color: #1e4eff;
+
+}
+
+
+-----------------------
+
+
+.nav-fl6{
+    max-width: 800px;
+    background: white;
+    border-radius: 15px;
+    height: 150px;
+
+}
+.box6{
+    list-style: none;
+    padding: 10px;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    /*justify-content: center;*/
+    align-items: stretch;
+    background-color: #1e4eff;
+    width: auto;
+
+
+}
+
+.item-7{
+    border: 1px solid red;
+    background: #1e4eff;
+    padding: 10px;
+    color: white;
+    /*width: 100px;*/
+    text-align: left;
+    /*align-self: center;*/
+
+
+}
+
+.item-7:hover{
+    border: 1px solid red;
+    background: #faf6f6;
+    padding: 10px;
+    color: #1e4eff;
+
+}
+
