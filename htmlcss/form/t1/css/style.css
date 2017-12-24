@@ -13,7 +13,7 @@ body{
 .wrapper{
     margin: auto;
     max-width: 1440px;
-    height: 642px;
+    height: 100vh;
     background-image: url("../img/banner.jpg");
     background-size: cover;
     font-family: 'Sirin Stencil', cursive, sans-serif;
