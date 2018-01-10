@@ -41,17 +41,20 @@
     /*margin-bottom: 1.688rem;*/
     /*text-align: center;*/
     margin: 0 auto 0;
-    padding-bottom: 1.688rem;
+    padding-bottom: 1rem;
 }
 .agency-sub-title {
     margin-bottom: 1.375rem;
     font-weight: bold;
     font-size: 0.875rem;
 }
-.agency-txt {
+.agency__txt {
     margin-bottom: 3.188rem;
 }
-
+.agency__txt2 {
+    display: none;
+    margin-bottom: 3.188rem;
+}
 
 .principles-title {
     margin-bottom: 1.813rem;
@@ -93,8 +96,8 @@
     text-align: center;
     line-height: 30px;
     position: absolute;
-    left: -7px;
-    top: -7px;
+    left: -0.4375rem;
+    top: -0.4375rem;
 
 
 }
@@ -188,6 +191,15 @@
     }
     .offer {
         margin: 0 0.9375rem 0 0;
+    }
+    .agency__txt2 {
+        display: block;
+    }
+    .agency__txt {
+        margin-bottom: 0;
+    }
+    .principles-list__item:before {
+        top: 1.5rem;
     }
 }
 /*median for 1024*/

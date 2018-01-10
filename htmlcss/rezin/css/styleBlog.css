@@ -48,6 +48,22 @@ h2 {
     margin-top: 2.75rem;
     margin-bottom: 1.5rem;
 
+    position: relative;
+    padding-left: 30px;
+
+}
+.blog--item__top:before {
+    content: "23 apr";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: deepskyblue;
+    color: #fefefe;
+    text-align: center;
+    line-height: 15px;
+    position: absolute;
+    left: -0.4375rem;
+    top: 0.3rem;
 }
 .item_upper {
     text-transform: uppercase;
@@ -95,6 +111,22 @@ h2 {
     margin-top: 2.75rem;
     margin-bottom: 1.5rem;
 
+    position: relative;
+    padding-left: 30px;
+
+}
+.blog--item__botton:before {
+    content: "28 apr";
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: deepskyblue;
+    color: #fefefe;
+    text-align: center;
+    line-height: 15px;
+    position: absolute;
+    left: -0.4375rem;
+    top: 0.3rem;
 }
 .blog--botton__txt {
     margin-bottom: 1.375rem;
