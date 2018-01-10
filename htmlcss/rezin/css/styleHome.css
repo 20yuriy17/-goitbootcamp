@@ -1,0 +1,355 @@
+@import "styleBase.css";
+@import "styleHeader.css";
+@import "styleFooter.css";
+
+
+
+
+.main--home {
+    background-color: #fff;
+    padding: 2.375rem 2.375rem 3.063rem;
+    font-family: Arial, sans-serif;
+    font-size: 0.8125rem;
+    position: relative;
+    line-height: 1.3rem;
+}
+.main--home:after {
+    content: "\f062";
+    font-family: "FontAwesome", sans-serif;
+
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+
+    background-color: #38afe5;
+    border-radius: 50%;
+
+    position: fixed;
+    right: 1.5%;
+    bottom: 1.5%;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 0.75rem;
+
+}
+.top {
+    padding-bottom: 5.125rem ;
+
+}
+
+.top--pic {
+    position: relative;
+    /*margin-bottom: 5.125rem;*/
+}
+.arrows {
+    display: none;
+    height: 4.25rem;
+    width: 4.25rem;
+    border-radius: 50%;
+    background-color: #38afe5;
+    color: white;
+    text-align: center;
+    line-height: 4.7rem ;
+
+
+    position: absolute;
+    z-index: 2;
+    /*top: 83%;*/
+    bottom: 5%;
+    left: 5%;
+    transform: rotate(45deg);
+}
+.top--txt {
+    display: block;
+    position: absolute;
+    z-index: 2;
+    /*top: 85%;*/
+    bottom: -6%;
+    left: 50%;
+    /*transform: translate(-50%);*/
+}
+.top__txt1 {
+    display: block;
+    width: 6.25rem;
+    height: 1.75rem;
+    background-color: #fff;
+    padding: 0.5rem;
+
+    text-transform: uppercase;
+    color: #000000;
+
+    line-height: 0.5625rem;
+
+    font-size: 0.5625rem;
+    font-weight: bold;
+    font-family: 'Pathway Gothic One', sans-serif;
+
+}
+.top__txt2 {
+    display: inline-block;
+    background-color: #38afe5;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-size: 0.8125rem;
+    padding: 0.4375rem;
+    font-family: 'Pathway Gothic One', sans-serif;
+
+}
+
+/*-------destination*/
+
+.destination__lst {
+    margin-top: 1.563rem;
+}
+.cover {
+
+}
+h2 {
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+
+.cover-box {
+    display: none;
+    /*display: flex;*/
+    flex-direction: column;
+    justify-content: space-between;
+    /*flex-basis: 100%;*/
+
+    background-color: #193149;
+
+    width: 50%;
+    /*height: 9.375rem;*/
+    height: 100%;
+    color: #ffffff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 0.5625rem;
+    padding: 0.8125rem;
+}
+.cover--button {
+    display: block;
+    background-color: #fbf6f9;
+    border-radius: 0.125rem;
+    width: 3.625rem;
+    text-align: center;
+    margin-left: 8rem;
+
+}
+.destination__item {
+    margin-bottom: 2.5rem;
+    position: relative;
+}
+.destination__item:hover>.cover-box{
+    display: flex;
+
+}
+.inv {
+    display: block;
+}
+/*-------botton*/
+
+.hot--lst {
+    font-size: 0;
+    display: flex;
+}
+.hot--btn {
+    display: inline-block;
+    width: 5.375rem;
+    /*height: 1.375rem;*/
+    text-transform: uppercase;
+    border: 1px solid #f7f7f7;
+    color: rgba(107, 116, 136, 255);
+    background-color: #fcfafa;
+    font-size: 0.6875rem;
+    text-align: center;
+    font-family: 'Pathway Gothic One', sans-serif;
+}
+.hot--btn:hover {
+    background-color: #ffffff;
+    color: #6dc4ec;
+    border-bottom: 0;
+
+}
+
+.hot--box {
+
+    padding: 1.875rem 1.563rem 0;
+}
+.border1 {
+    border-top: 1px solid #f7f7f7;
+    border-right: 1px solid #f7f7f7;
+    border-left: 1px solid #f7f7f7 ;
+}
+.border2 {
+    border-bottom: 1px solid #f7f7f7;
+    border-right: 1px solid #f7f7f7;
+    border-left: 1px solid #f7f7f7 ;
+}
+
+.box--lst {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+.box--pic {
+    margin-bottom: 0.9375rem;
+    width: 100%;
+}
+.box--txt {
+    width: 70%;
+}
+.box--btn {
+    display: block;
+    width: 20%;
+    height: 1.5rem;
+    text-align: center;
+    border: 1px solid #dbd7d7;
+    margin: auto;
+    margin-bottom: 0.5rem;
+    background-color: #fbf6fa;
+    border-radius: 20%;
+}
+.botton--hot {
+    margin-bottom: 2.75rem ;
+}
+
+.botton--news {
+    border: 1px solid #dbd7d7;
+    /*padding: 0.625rem 3.75rem 2.125rem;*/
+    line-height: 2.125rem;
+    font-family: 'Open Sans', sans-serif;
+}
+.news__item {
+    display: block;
+    padding-left: 3.75rem;
+    background-color: #fcfafa;
+    border-bottom: 1px solid #dbd7d7
+
+}
+.news__box {
+    display: block;
+}
+.email {
+    display: inline-block;
+    /*border-top: 1px solid #dbd7d7;*/
+    margin: 2.125rem 4.75rem  0 3.75rem;
+}
+
+.email-title {
+    margin-bottom: 1.313rem;
+    }
+
+input {
+    /*background-color: #2fc9ff;*/
+    height: 1.875rem;
+    width: 13rem;
+    border: 1px solid #dbd7d7;
+}
+h4 {
+    margin-bottom: 0.5rem;
+}
+.news-list {
+    column-count: 2;
+
+    font-size:  0.68rem;
+    font-family: Arial;
+    font-weight: bold;
+    margin: 2.063rem 3.5rem 2.125rem;
+    line-height: 1.75rem;
+}
+.fa-chevron-circle-right {
+    color: #5abce9;
+}
+.clic {
+    color: #fa7e7e;
+}
+
+/*median for 768*/
+@media (min-width: 768px) {
+    .destination__lst {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .inv {
+        display: none;
+    }
+    .cover-box {
+
+        /*display: flex;*/
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .top--txt {
+        top: 50%;
+        left: 0;
+        /*right: 77%;*/
+    }
+    .cover--button {
+        margin-left: 5rem;
+    }
+    .box--lst {
+        flex-wrap: nowrap;
+    }
+    .box--pic {
+       margin-right: 1.375rem;
+    }
+    .news__box {
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .news-list {
+        width: 85%;
+
+    }
+    .arrows {
+        display: block;
+    }
+}
+/*median for 1024*/
+@media (min-width: 1024px) {
+    .inv {
+        display: block;
+    }
+    .destination__item {
+        width: 98%;
+        justify-content: space-between;
+        margin: auto;
+    }
+    .destination__lst {
+        margin-bottom: 3.5rem;
+    }
+
+    .news-list {
+        column-count: 1;
+        margin: 2.063rem 1.5rem 2.125rem;
+    }
+    .news__box {
+        display: flex;
+        flex-direction: column;
+    }
+    .botton--news {
+        width: 17rem ;
+    }
+    .email {
+        margin: 2.125rem 1.75rem 0;
+    }
+    input {
+        width: 13rem;
+    }
+    .botton--hot {
+        margin-bottom: 0;
+        margin-right: 1.25rem;
+    }
+    .botton {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+}

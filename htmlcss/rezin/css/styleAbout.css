@@ -1,0 +1,223 @@
+@import "styleBase.css";
+@import "styleHeader.css";
+@import "styleFooter.css";
+
+.about {
+    background-color: #fff;
+    padding: 3.688rem 2.313rem 3.25rem;
+    font-family: Arial, sans-serif;
+    font-size: 0.75rem;
+    position: relative;
+    line-height: 1.3rem;
+
+}
+.about:after {
+    content: "\f062";
+    font-family: "FontAwesome", sans-serif;
+
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+
+    background-color: #38afe5;
+    border-radius: 50%;
+
+    position: fixed;
+    right: 1.5%;
+    bottom: 1.5%;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 0.75rem;
+
+}
+.agency-title {
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    font-family: 'Pathway Gothic One', sans-serif, sans-serif;
+    font-size: 1.25rem;
+}
+.about-pic {
+    /*margin-bottom: 1.688rem;*/
+    /*text-align: center;*/
+    margin: 0 auto 0;
+    padding-bottom: 1.688rem;
+}
+.agency-sub-title {
+    margin-bottom: 1.375rem;
+    font-weight: bold;
+    font-size: 0.875rem;
+}
+.agency-txt {
+    margin-bottom: 3.188rem;
+}
+
+
+.principles-title {
+    margin-bottom: 1.813rem;
+    text-transform: uppercase;
+    font-family: 'Pathway Gothic One', sans-serif, sans-serif;
+    font-size: 1.25rem;
+}
+.principles-list-title {
+    margin-bottom: 0.9375rem;
+    margin-top: 1.5rem;
+    font-size: 0.875rem;
+}
+.principles-list {
+    margin-bottom: 3.125rem;
+    /*margin-left: 2.125rem;*/
+}
+
+.list {
+    /*list-style: none;*/
+    counter-reset: list;
+    vertical-align: center;
+}
+
+
+
+.principles-list__item {
+    position: relative;
+    padding-left: 30px;
+}
+.principles-list__item:before {
+
+    counter-increment: list;
+    content: counter(list);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: deepskyblue;
+    color: #fefefe;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    left: -7px;
+    top: -7px;
+
+
+}
+
+.about__top {
+    border-bottom: 1px solid #dedbdb;
+}
+
+.about__botton {
+    margin-top: 3.125rem;
+}
+.offer__title {
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+    font-family: 'Pathway Gothic One', sans-serif, sans-serif;
+    font-size: 1.25rem;
+}
+.offer__title-sub {
+    margin-bottom: 1.25rem;
+    font-size: 0.875rem;
+}
+.offer-list {
+    column-count: 2;
+    margin-top: 2.313rem;
+    margin-bottom:  4.125rem;
+    font-size:  0.75rem;
+    font-weight: bold;
+}
+.offer-list__item {
+    margin-bottom: 1.25rem;
+}
+
+.testi__title {
+    margin-bottom:  1.938rem;
+    text-transform: uppercase;
+    font-family: 'Pathway Gothic One', sans-serif, sans-serif;
+    font-size: 1.25rem;
+}
+.testi__txt {
+    /*display: block;*/
+    margin: 1.188rem auto;
+    width: 14.94rem;
+    background: #fcfafa;
+    border: 1px solid #e0dddd;
+    padding: 0.9375rem;
+    font-size: 0.875rem;
+    font-weight: bold;
+
+
+}
+.testi__d {
+    display: block;
+    text-align: center;
+
+}
+.testi__mng {
+    /*display: block;*/
+    text-align: center;
+    font-size: 0.75rem;
+    font-weight: bold;
+    margin-bottom: 0.875rem;
+}
+
+.fa-long-arrow-right {
+    color: #38afe5;
+}
+
+
+/*median for 768*/
+@media (min-width: 768px) {
+
+    .principles-list {
+        display: flex;
+        justify-content: space-around;
+    }
+    .principles-list__item {
+        width: 27%;
+    }
+    .about-pic {
+        float: left;
+        width: 22.5rem;
+        margin-right: 20px; /* Отступ справа */
+    }
+    .about__botton {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .testi__txt {
+        width: 9.375rem;
+    }
+    .offer {
+        margin: 0 0.9375rem 0 0;
+    }
+}
+/*median for 1024*/
+@media (min-width: 1024px) {
+
+    .about__top {
+        display: flex;
+        justify-content: space-around;
+    }
+    .agency {
+        width: 57%;
+    }
+    .principles {
+        width: 30%;
+    }
+    .principles-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 100%;
+    }
+    .principles-list__item {
+        width: 100%;
+    }
+    .testi__txt {
+        width: 10rem;
+    }
+    /*.principles-list__item:before {*/
+        /*content: "";*/
+        /*<i class="fa fa-circle" aria-hidden="true"></i>*/
+
+    /*}*/
+}

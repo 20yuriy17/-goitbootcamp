@@ -1,0 +1,135 @@
+@import "styleBase.css";
+@import "styleHeader.css";
+@import "styleFooter.css";
+
+.main--contacts {
+    background-color: #fff;
+    padding: 3.875rem 2.5rem;
+    font-family: Arial, sans-serif;
+    font-size: 0.8125rem;
+    position: relative;
+    line-height: 1.3rem;
+}
+.main--contacts:after {
+    content: "\f062";
+    font-family: "FontAwesome", sans-serif;
+
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+
+    background-color: #38afe5;
+    border-radius: 50%;
+
+    position: fixed;
+    right: 1.5%;
+    bottom: 1.5%;
+    color: #ffffff;
+    text-align: center;
+    line-height: 1.5rem;
+    font-size: 0.75rem;
+}
+h2 {
+    font-family: 'Pathway Gothic One', sans-serif;
+    text-transform: uppercase;
+    margin-bottom:  1.563rem;
+    text-align: left;
+}
+
+.cntct {
+    text-align: right;
+
+
+}
+
+.end-dim {
+    display: block;
+    width: 100%;
+    line-height: 2rem;
+    font-size: 0.875rem;
+    margin-bottom: 1.063rem;
+    background-color: #fcfafa;
+    border: 1px solid #d4d0d0;
+
+
+
+}
+.cntct-btn {
+    /*background-color: rgba(130, 134, 143, 255, 0,9);*/
+    /*text-transform: uppercase;*/
+    background-color:  #fcfafa;
+    font-size: 0.6875rem;
+    padding: 0.4375rem 1.313rem;;
+    border: 1px solid #d4d0d0;
+    color: #000000;
+    width: 4.875rem;
+    border-radius: 0.5rem;
+    margin-bottom: 3.125rem;
+
+
+}
+.addres {
+    display: flex;
+    /*justify-content: space-between;*/
+    margin-bottom: 2.875rem;
+
+}
+.marmora {
+    display: inline-block;
+    /*display: flex;*/
+    /*margin: 1.375rem;*/
+    margin-right: 1.375rem;
+    /*width: 50%;*/
+}
+.red {
+color: red}
+
+
+@media (min-width: 768px) {
+
+    .main--contacts {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: start;
+    }
+    .cntct {
+        width: 55%;
+        /*display: flex;*/
+        /*flex-direction: column;*/
+    }
+    .addres {
+        display: block;
+        margin: 2.5rem 0 0 4.375rem;
+    }
+    .marmora {
+        margin-bottom: 3.125rem;
+    }
+}
+/*median for 1024*/
+@media (min-width: 1024px) {
+
+    .main--contacts {
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: stretch;
+        justify-content: space-between;
+
+    }
+    .cntct {
+        /*max-width: 26%;*/
+        width: 20%;
+        /*display: flex;*/
+        /*flex-direction: column;*/
+    }
+    .addres {
+
+        margin-left: 1.25rem;
+    }
+    .stay {
+        max-width: 32.19rem;
+        /*width: 50%;*/
+    }
+
+}
+
+
